@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>javascritp basic</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta property="og.image" content="https://blog.alexdevero.com/wp-content/uploads/2019/12/javascript-basics-understanding-basic-javascript-data-types.jpg">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <style>
+     
+    </style>
+</head>
+<body onload="MainFunction()">
+
+    <div id="loadimg"></div>
+    <section id="load">
+
+     <!-- ----------- onmouseover / onmouseout Name -----------  -->
+
+     <div id="zm" onmouseover="mitesh()" onmouseout="parmar()">Hover Me</div>
+
+    <!-- ========== simple intrest ========== -->
+    <div class="flex-1-4">
+    <div class="form-1">
+    <div>Check your principle</div>
+     <p id="pny"></p>
+    <form>
+        <label>Enter principle ammount : </label>
+        <input type="text" id="pname" placeholder="E.P.A" required><br><br>
+        <label>Enter Roi :</label>
+        <input type="text" id="roi" placeholder="E.R" required><br><br>
+        <label>Enter number of Month :</label>
+        <input type="text" id="yname" placeholder="E.N.M" required><br><br>
+        <button type="button" class="btn-1" onclick="si()">Check</button>
+    </form> 
+</div>
+    <!-- number of square -->
+
+    <div class="form-2">
+    <div>Check square of number</div>
+    <p id="ans"></p>
+    <form>
+        <label>Square of numbers is : </label>
+        <input type="text" id="Numbers" placeholder="E.A.N" required><br><br>
+        <button type="button" class="btn-2" onclick="sq()">Click</button>
+    </form>
+</div>
+
+    <!-- compaund interest  -->
+    <div class="form-3">
+    <div>Check compound interest :</div>
+    <p id="cpi"></p>
+     <form>
+         <label>Enter compound interest : </label>
+         <input type="text" id="fname" placeholder="E.P.A" required><br><br>
+         <label>Enter roi :</label>
+         <input type="text" id="sroi" placeholder="E.R" required><br><br>
+         <label>Enter number of years :</label>
+         <input type="text" id="tyname" placeholder="E.N.Y" required><br><br>
+         <button type="button" class="btn-3" onclick="ci()">Check</button>
+    </form>
+</div>
+
+    <!-- find age for eligibility for votting  short -->
+
+    <div class="form-4">
+    <div>Check your age</div>
+    <p id="javab"></p>
+    <form>
+        <label>Enter your age : </label>
+        <input type="text" id="umar" placeholder="E.Y.A" required><br><br>
+        <button type="button" class="btn-4" onclick="ag_ter()">Check</button>
+    </form>
+</div>
+</div>
+
+    <!-- do the Subtract (badbaki)-->
+    <div class="flex-5-8">
+    <div class="form-5">
+    <div>Subtract</div>
+    <p id="pnm"></p>
+    <form>
+        <label>Enter first ammount : </label>
+        <input type="text" id="cname" placeholder="E.F.A" required><br><br>
+        <label>Enter sec amount :</label>
+        <input type="text" id="ron" placeholder="E.S.A" required><br><br>
+        <button type="button" class="btn-5" onclick="sm()">Check</button>
+    </form>
+</div>
+
+        <!-- multiply -->  
+        <div class="form-6">
+    <div>Multiply</div>
+    <p id="oft"></p>
+    <form>
+        <label>Enter first Number :</label>
+        <input type="text" id="jname" placeholder="E.F.N" required><br><br>
+        <label>Enter second Number :</label>
+        <input type="text" id="ppname" placeholder="E.S.N" required><br><br>
+        <button type="button" class="btn-6" onclick="ply()">Check</button>
+    </form>
+</div>
+    <!-- ------ Sum up ------  -->
+    <div class="form-7">
+    <div>Do the Sum up</div>
+    <p id="plus"></p>
+    <form>
+        <label>Enter Your First Number :</label>
+        <input type="text" id="pgname" placeholder="E.F.N"><br><br>
+        <label>Enter Your Second Number :</label>
+        <input type="text" id="pfsname" placeholder="E.S.N"><br><br>
+        <button type="button" class="btn-7" onclick="ansplus()">Click</button>
+    </form>
+    </div>
+    <!-- ---------- check in Average marks ----------  -->
+    <div class="form-8">
+    <div>Your Average Marks</div>
+    <p id="cam"></p>
+    <form>
+    <label>Enter Your Marks :</label><br>
+    <label>Enter Physics Marks :</label>
+    <input type="text" id="physics" placeholder="Your physics marks" required><br>
+    <label>Enter Chemistry Marks :</label>
+    <input type="text" id="chemistry" placeholder="Your chemistry marks" required><br>
+    <label>Enter Math Marks :</label>
+    <input type="text" id="math" placeholder="Your math marks" required><br>
+    <label>Enter Computer Marks :</label>
+    <input type="text" id="computer" placeholder="Your computer marks"required><br>
+    <label>Enter English Marks :</label>
+    <input type="text" id="english" placeholder="Your english marks"required><br>
+    <button type="button" class="btn-8" onclick="pcmce()">Check</button>
+    </div>
+</div>
+        <!-- ---------- Print Your Name ----------  -->
+    <div class="flex-9-12">
+    <div class="form-9">
+        <div>Print your name</div>
+        <p id="pymn"></p>    
+        <form>
+            <input type="text" name="name" id="entrynm" placeholder="Enter your Name *" required>
+            <br><br>
+            <button type="button" class="btn-9" onclick="dnmp()">Click Me</button>
+        </form>
+    </div>
+
+        <!-- ---------- Greater than and less than (if) ----------  -->
+    <div class="form-10">
+
+        <div>Check Greater than and less than</div>
+        <p id="meet"></p>
+        <form>
+            <label>Enter Your first Number :</label>
+            <input type="text" id="abig"  placeholder="E.F.N" required><br>
+            <label>Enter Your Second Number :</label>
+            <input type="text" id="bsmall"  placeholder="E.S.N" required><br>
+            <button type="button" class="btn-10" onclick="ok()">Check</button>
+        </form>
+    </div>
+        <!-- ----------- Login Mail ----------  -->
+
+        <div class="form-11">
+        <div>Login Mail</div>
+        <!-- <p id="ceml"></p> -->
+        <form>
+            <label>Enter Mail (mymail@gmail.com) :</label>
+            <input type="text" id="dhamo" placeholder="E.Y.M" required><br>
+            <label>Enter Password (password) :</label>
+            <input type="text" id="mitha" placeholder="E.Y.P" required><br>
+            <button type="button" class="btn-11" onclick="lgn()">Login</button>
+        </form>
+        </div>
+        <!-- ---------- Check Your Grade ----------  -->
+
+        <div class="form-12">
+
+        <div>Check Your Grade</div>
+        <div>Please Enter your grade in form of A,B,C</div>
+
+        <p id="yourgrade"></p>
+        <form>
+            <label>Enter Your Grade :</label>
+            <input type="text" id="yourg" placeholder="Enter Your Grade" required><br>
+            <button type="button" class="btn-12" onclick="okg()">Check</button>
+        </form>
+        </div>
+    </div>
+         <!-- ----------- onmouseover / onmouseout -----------  -->
+
+        <div class="car-img">
+            <div class="hvrme">Hover Me</div>
+         <img src="https://static.autox.com/uploads/2022/08/Mahindra-Scorpio-Classic-Left-Front-Three-Quarter.jpg" id="imggek" onmouseover="display1()" onmouseout="display2()">
+        </div>
+
+        
+        <!-- ---------- Select Your Date of Birth ----------  -->
+        <div class="form-13">
+        <div>Select Your Date of Birth</div><br>
+        <select name="dob">
+            <option value="">-Select Day-</option>
+            <script>
+                for(i=1;i<=31;i++)
+                document.write("<option value='i'>"+i+"</option>")
+            </script>
+        </select>
+        <select name="bod">
+            <option value="">-Select Month-</option>
+            <script>
+                for(i=1;i<=12;i++)
+                document.write("<option value='i'>"+i+"</option>")
+            </script>
+        </select>
+        <select name="bod">
+            <option value="">-Select Year-</option>
+            <script>
+                for(i=1900;i<=2023;i++)
+                document.write("<option value='i'>"+i+"</option>")
+            </script>
+            </select> 
+            </div>
+           
+    
+    
+
+    <!-- ========== calculator ==========  -->
+
+    <section>
+        <div class="container">
+            <div id="display"></div>
+            <div class="buttons">
+                <div class="button">C</div>
+                <div class="button">/</div>
+                <div class="button">*</div>
+                <div class="button">&larr;</div>
+                <div class="button">7</div>
+                <div class="button">8</div>
+                <div class="button">9</div>
+                <div class="button">-</div>
+                <div class="button">4</div>
+                <div class="button">5</div>
+                <div class="button">6</div>
+                <div class="button">+</div>
+                <div class="button">1</div>
+                <div class="button">2</div>
+                <div class="button">3</div>
+                <div class="button">.</div>
+                <div class="button">(</div>
+                <div class="button">0</div>
+                <div class="button">)</div>
+                <div id="equal" class="button">=</div>
+               
+            </div>
+        </div>
+    </section>
+</section>
+
+    <!-- ========== calculator end ===========  -->
+
+    <script>
+        var display = document.getElementById('display');
+        var buttons = Array.from(document.getElementsByClassName('button'));
+        buttons.map( button => {
+            button.addEventListener('click', (e) => {
+                switch(e.target.innerText){
+                    case 'C':
+                        display.innerText = '';
+                        break;
+                    case '&larr;':
+                        if(display.innerText){
+                            display.innerText = display.innerText.slice(0, -1);
+                        }   
+                        break;
+                    case '=': 
+                         try{
+                            display.innerText = eval(display.innerText);
+                        }
+                        catch{
+                            display.innerText = 'Error!';
+                        }
+                        break;
+
+                    default:
+                        display.innerText += e.target.innerText;
+                }
+
+            })
+        })
+    </script>
+
+</body>
+</html>

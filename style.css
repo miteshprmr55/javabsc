@@ -1,0 +1,985 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+}
+
+#zm {
+    background: black;
+    color: white;
+    width: fit-content;
+    font-size: 40px;
+    padding: 1%;
+    border-radius: 15px;
+    font-family: fantasy;
+    margin: auto;
+}
+/* <!-- ========== simple intrest start ========== --> */
+.form-1 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#pny {
+    width: 225px;
+    border: 1px solid white;
+    height: 30px;
+    padding: 1%;
+    border-radius: 8px;
+    margin-top: 7%;
+}
+
+#pname {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 6%;
+}
+
+#roi {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#yname {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.btn-1 {
+    border: none;
+    border: 1px solid white;
+    padding: 5%;
+    border-radius: 10px;
+}
+/* <!-- ========== simple intrest end ========== --> */
+
+/* <!-- number of square start -->  */
+
+.form-2 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#Numbers {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 8%;
+}
+
+#ans {
+    width: 225px;
+    border: 1px solid white;
+    height: 30px;
+    padding: 1%;
+    border-radius: 8px;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.btn-2 {
+    border: none;
+    border: 1px solid white;
+    padding: 5%;
+    border-radius: 10px;
+}
+/* <!-- number of square end -->  */
+
+/* <!-- compaund interest start -->  */
+
+.form-3 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#cpi {
+    width: 308px;
+    border: 1px solid white;
+    height: 30px;
+    padding: 1%;
+    border-radius: 8px;
+    margin-top: 3%;
+    text-align: center;
+}
+
+#fname {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 6%;
+}
+
+#sroi {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#tyname {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.btn-3 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 3%;
+    border-radius: 10px;
+}
+/* <!-- compaund interest end -->  */
+
+/* <!-- find age for eligibility for votting  short start -->  */
+
+.form-4 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#javab {
+    width: 270px;
+    border: 1px solid white;
+    height: 30px;
+    padding: 1%;
+    border-radius: 8px;
+    margin-top: 6%;
+    text-align: center;
+}
+
+#umar {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.btn-4 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 3%;
+    border-radius: 10px;
+}
+/* <!-- find age for eligibility for votting  short end -->  */
+
+/* <!-- do the Subtract (badbaki) start --> */
+
+.form-5 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#cname {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 8%;
+}
+
+#pnm {
+    width: 278px;
+    border: 1px solid white;
+    height: 30px;
+    padding: 1%;
+    border-radius: 8px;
+    margin-top: 3%;
+    text-align: center;
+}
+
+#ron {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.btn-5 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+/* <!-- do the Subtract (badbaki) end --> */
+
+/* <!-- multiply start -->  */
+
+.form-6 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#oft {
+    width: 278px;
+    border: 1px solid white;
+    height: 30px;
+    padding: 1%;
+    border-radius: 8px;
+    margin-top: 3%;
+    text-align: center;
+}
+
+#jname {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 8%;
+}
+
+#ppname {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.btn-6 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+/* <!-- multiply end -->  */
+
+/* <!-- ------ Sum up start ------  -->  */
+
+.form-7 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#plus {
+    width: 278px;
+    border: 1px solid white;
+    height: 30px;
+    padding: 1%;
+    border-radius: 8px;
+    margin-top: 3%;
+    text-align: center;
+}
+
+#pgname {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 8%;
+}
+
+#pfsname {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.btn-7 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 4%;
+    border-radius: 10px;
+}
+
+/* <!-- ------ Sum up ------ end --> */
+
+/* <!-- ---------- check in Average marks start ----------  --> */
+
+.form-8 {
+    border: 1px solid white;
+    width: 370px;
+    padding: 1%;
+    border-radius: 25px;  
+    margin: auto; 
+}
+
+#cam {
+    width: 215px;
+    border: 1px solid white;
+    height: 30px;
+    padding: 1%;
+    border-radius: 8px;
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+#physics {
+    padding: 1%;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 4%;
+}
+
+#chemistry {
+    padding: 1%;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 4%;
+}
+
+#math {
+    padding: 1%;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 4%;
+}
+
+#computer {
+    padding: 1%;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 4%;
+}
+
+#english {
+    padding: 1%;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 4%;
+}
+
+.btn-8 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 4%;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+/* <!-- ---------- check in Average marks end ----------  --> */
+
+/* <!-- ---------- Print Your Name start ----------  --> */
+
+.form-9 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#pymn {
+    width: 215px;
+    border: 1px solid white;
+    height: 30px;
+    padding: 1%;
+    border-radius: 8px;
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+#entrynm {
+    padding: 2%;
+    width: 214px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 5%;
+}
+
+.btn-9 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 4%;
+    border-radius: 10px;
+}
+
+/* <!-- ---------- Print Your Name End ----------  --> */
+
+/* <!-- ---------- Greater than and less than (if) start ----------  --> */
+
+.form-10 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#meet {
+    width: 180px;
+    border: 1px solid white;
+    height: 30px;
+    padding: 1%;
+    border-radius: 8px;
+    margin-top: 11%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#abig {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 6%;
+}
+
+#bsmall {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.btn-10 {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 4%;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+
+/* <!-- ---------- Greater than and less than (if) end ----------  --> */
+
+/* <!-- ----------- Login Mail Start----------  --> */
+
+.form-11 {
+    border: 1px solid white;
+    width: 440px;
+    padding: 1%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+/* #ceml {
+    width: 180px;
+    border: 1px solid white;
+    height: 30px;
+    padding: 1%;
+    border-radius: 8px;
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 2%;
+} */
+
+#dhamo {
+    padding: 1%;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 4%;
+}
+
+#mitha {
+    padding: 1%;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 4%;
+}
+
+.btn-11 {
+    border: 1px solid white;
+    width: 65px;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 4%;
+    height: 36px;
+}
+/* <!-- ----------- Login Mail end ----------  --> */
+
+/* <!-- ---------- Check Your Grade start ----------  --> */
+
+.form-12 {
+    border: 1px solid white;
+    width: 440px;
+    padding: 1%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#yourgrade {
+    width: 180px;
+    border: 1px solid white;
+    height: 30px;
+    padding: 1%;
+    border-radius: 8px;
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#yourg {
+    padding: 1%;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 4%;
+}
+
+.btn-12 {
+    border: 1px solid white;
+    width: 65px;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 4%;
+    height: 36px;
+}
+
+/* <!-- ---------- Check Your Grade end ----------  --> */
+
+/* <!-- ---------- Select Your Date of Birth start ----------  --> */
+
+.form-13 {
+    border: 1px solid white;
+    width: 440px;
+    padding: 1%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+select {
+    padding: 2%;
+    border-radius: 6px;
+}
+
+/* <!-- ---------- Select Your Date of Birth end ----------  --> */
+
+/* ----------- car image hover start -------------  */
+
+.car-img{
+    border: 1px solid white;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.car-img img {
+    border-radius: 25px;
+    width: 450px;
+    height: 350px; 
+    border: 2px solid white;
+}
+
+.hvrme {
+    width: fit-content;
+    padding: 2%;
+    margin: auto;
+    margin-bottom: 4%;
+    border: 1px solid white;
+    border-radius: 10px
+}
+
+/* ----------- car image hover end ---------- */
+
+div {
+    margin-top: 2% !important;
+}
+
+.flex-1-4 {
+    display: flex;
+    border: 1px solid white;
+    padding: 2%;
+    border-radius: 25px;
+    width: 90%;
+    margin: auto;
+}
+
+.flex-5-8 {
+    display: flex;
+    border: 1px solid white;
+    padding: 2%;
+    border-radius: 25px;
+    width: 90%;
+    margin: auto;
+}
+
+.flex-9-12 {
+    display: flex;
+    border: 1px solid white;
+    padding: 2%;
+    border-radius: 25px;
+    width: 98%;
+    margin: auto;
+}
+
+/* ------------ loader  start ---------- */
+
+#load {
+    position: relative;
+    display: none;
+}
+
+#loadimg {
+    background: url(https://superstorefinder.net/support/wp-content/uploads/2018/01/orange_circles.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 41%;
+    top: 30%;
+}
+
+/* ------------ loader  start ---------- */
+
+
+/* ========== calculetor start ===========  */
+
+.container
+        {
+            max-width: 400px;
+            margin: 5vh auto 0 auto;
+            box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+        }
+        #display
+        {
+            text-align: right;
+            height: 90px;
+            line-height: 70px;
+            padding: 5px 8px;
+            font-size: 30px;
+        }
+        .buttons
+        {
+            display: grid;
+            border-bottom: 1px solid #999;
+            border-left: 1px solid #999;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .buttons > div
+        {
+            border-top: 1px solid #999;
+            border-right: 1px solid #999;
+        }
+        .button
+        {
+            border: 0.5px solid #999;
+            line-height: 80px;
+            text-align: center;
+            cursor: pointer;
+        }
+        #equal
+        {
+            background: #5555ff;
+            color: white;
+        }
+        .button:hover
+        {
+            background-color: white;
+            color: black;
+            transition: 0.5s ease-in-out;
+        }
+    
+
+/* ========== Responsive Start ==========  */
+
+@media only screen and (min-width: 300px) and (max-width: 480px)  { 
+
+    .flex-1-4 {
+        display: flex;
+        border: none;
+        padding: 0%;
+        border-radius: 0;
+        width: auto;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .form-1 {
+        border: 1px solid white;
+        width: fit-content;
+        padding: 4%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    .form-2 {
+        border: 1px solid white;
+        width: fit-content;
+        padding: 4%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    .flex-9-12 {
+        display: flex;
+        border: none;
+        padding: 0%;
+        border-radius: 0;
+        width: auto;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .flex-5-8{
+        display: flex;
+        border: none;
+        padding: 0%;
+        border-radius: 0;
+        width: auto;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .car-img {
+        border: 1px solid white;
+        width: 80%;
+        padding: 1%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    .car-img img {
+        width: 100%;
+        height: 350px;
+        
+    }
+
+    .form-11 {
+        border: 1px solid white;
+        width: 98%;
+        padding: 6%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    .form-12 {
+        border: 1px solid white;
+        width: 98%;
+        padding: 6%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    .form-13 {
+        border: 1px solid white;
+        width: 96%;
+        border-radius: 25px;
+        margin: auto;
+        padding: 6%;
+    }
+
+    .form-8 {
+        border: 1px solid white;
+        width: 90%;
+        padding: 4%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    .form-3 {
+        border: 1px solid white;
+        width: 90%;
+        padding: 5%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    #cpi {
+        width: 100%;
+        border: 1px solid white;
+        height: 30px;
+        padding: 1%;
+        border-radius: 8px;
+        margin-top: 3%;
+        text-align: center;
+    }
+
+    .form-4 {
+        border: 1px solid white;
+        width: 90%;
+        padding: 3%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    .form-5 {
+        border: 1px solid white;
+        width: 90%;
+        padding: 3%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    #pnm {
+        width: 100%;
+        border: 1px solid white;
+        height: 30px;
+        padding: 1%;
+        border-radius: 8px;
+        margin-top: 3%;
+        text-align: center;
+    }
+
+    .form-6 {
+        border: 1px solid white;
+        width: 90%;
+        padding: 4%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    #oft {
+        width: 100%;
+        border: 1px solid white;
+        height: 30px;
+        padding: 1%;
+        border-radius: 8px;
+        margin-top: 3%;
+        text-align: center;
+    }
+
+    .form-7 {
+        border: 1px solid white;
+        width: 90%;
+        padding: 4%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    #plus {
+        width: 100%;
+        border: 1px solid white;
+        height: 30px;
+        padding: 1%;
+        border-radius: 8px;
+        margin-top: 3%;
+        text-align: center;
+    }
+
+    .form-9 {
+        border: 1px solid white;
+        width: 90%;
+        padding: 6%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    .form-10 {
+        border: 1px solid white;
+        width: 90%;
+        padding: 4%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    #loadimg {
+        background: url(https://superstorefinder.net/support/wp-content/uploads/2018/01/orange_circles.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        z-index: 1;
+        left: 27%;
+        top: 30%;
+    }
+
+    .container {
+        max-width: 90%;
+        margin: 5vh auto 0 auto;
+        box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+        margin-bottom: 5%;
+    }
+
+
+}
+
+/* ========== Responsive End ==========  */
